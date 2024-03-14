@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 
 final class ViewController: UIViewController {
-    private let items = ["Chats", "Unread", "Personal", "Bots", "Photos", "Private", "Archive"]
+    private let items = ["Chats", "Unread"]
     
-    private lazy var scrollableSegmentControlView = ScrollableSegmentControlView(items: items)
+    private lazy var scrollableSegmentControlView = ScrollableSegmentControlView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ final class ViewController: UIViewController {
         
         scrollableSegmentControlView.setDataType(.customSegment(customSegment))
         // OR
-        scrollableSegmentControlView.setDataType(.items(items))
+//        scrollableSegmentControlView.setDataType(.items(items))
 
         scrollableSegmentControlView.segmenControl.selectedSegmentIndex = 0
         
