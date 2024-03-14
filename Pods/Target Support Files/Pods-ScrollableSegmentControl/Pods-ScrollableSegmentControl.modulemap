@@ -1,0 +1,6 @@
+framework module Pods_ScrollableSegmentControl {
+  umbrella header "Pods-ScrollableSegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

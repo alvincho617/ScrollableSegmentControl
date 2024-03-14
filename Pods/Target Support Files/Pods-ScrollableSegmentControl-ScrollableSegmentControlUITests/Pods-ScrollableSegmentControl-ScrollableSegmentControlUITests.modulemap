@@ -1,0 +1,6 @@
+framework module Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests {
+  umbrella header "Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
