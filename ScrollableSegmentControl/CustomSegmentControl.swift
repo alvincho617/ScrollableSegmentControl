@@ -55,7 +55,7 @@ final class CustomSegmentControl: ScrollableSegmentControl {
         if let selectedImageView = subviews[selectedImageViewIndex] as? UIImageView
         {
             //MARK: - Configure selectedImageView Color
-            selectedImageView.backgroundColor = .segmentSelected
+            selectedImageView.backgroundColor = .baseSegmentSelected
             selectedImageView.image = nil
             
             //MARK: - Configure selectedImageView Inset with SegmentControl
