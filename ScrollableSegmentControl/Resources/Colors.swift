@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIColor {
+    static let baseBackground = UIColor(named: "background")
+    static let baseSegmentSelected = UIColor(named: "segmentSelected")
+}

@@ -6,14 +6,40 @@
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
+    private let items = ["Chats", "Unread", "Personal", "Bots", "Photos", "Private", "Archive"]
+    
+    private lazy var scrollableSegmentControlView = ScrollableSegmentControlView(items: items)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .baseBackground
+        
+        let customSegment = CustomSegmentControl(items: items)
+        
+        scrollableSegmentControlView.setDataType(.customSegment(customSegment))
+        // OR
+        scrollableSegmentControlView.setDataType(.items(items))
+
+        scrollableSegmentControlView.segmenControl.selectedSegmentIndex = 0
+        
+        setupSegmentControl()
     }
-
-
+    
+    private func setupSegmentControl() {
+        view.addSubview(scrollableSegmentControlView)
+        scrollableSegmentControlView.snp.makeConstraints { make in
+            make.top
+                .equalToSuperview()
+                .offset(100)
+            make.horizontalEdges
+                .equalToSuperview()
+                .inset(20)
+        }
+    }
+    
 }
+
 

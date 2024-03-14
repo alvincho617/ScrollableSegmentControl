@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A821823CE2A4E691417946A /* Pods_ScrollableSegmentControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942E9C55464B62F0FEA5523A /* Pods_ScrollableSegmentControlTests.framework */; };
+		509518C14AE2BF970D81E9F9 /* Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CBD4EA2C57441C7FB20FC0 /* Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework */; };
+		560DE0B37CE8F4DE76CC1509 /* Pods_ScrollableSegmentControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107CBD158B9F18ED2E48FA21 /* Pods_ScrollableSegmentControl.framework */; };
 		5ED72F632BA3258B0031D882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F622BA3258B0031D882 /* AppDelegate.swift */; };
 		5ED72F652BA3258B0031D882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F642BA3258B0031D882 /* SceneDelegate.swift */; };
 		5ED72F672BA3258B0031D882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F662BA3258B0031D882 /* ViewController.swift */; };
@@ -16,6 +19,10 @@
 		5ED72F7A2BA3258D0031D882 /* ScrollableSegmentControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F792BA3258D0031D882 /* ScrollableSegmentControlTests.swift */; };
 		5ED72F842BA3258D0031D882 /* ScrollableSegmentControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F832BA3258D0031D882 /* ScrollableSegmentControlUITests.swift */; };
 		5ED72F862BA3258D0031D882 /* ScrollableSegmentControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F852BA3258D0031D882 /* ScrollableSegmentControlUITestsLaunchTests.swift */; };
+		5ED72F932BA325E00031D882 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F922BA325E00031D882 /* CustomSegmentControl.swift */; };
+		5ED72F962BA325FE0031D882 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F952BA325FE0031D882 /* Colors.swift */; };
+		5ED72F992BA3262A0031D882 /* ScrollableSegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F982BA3262A0031D882 /* ScrollableSegmentControlView.swift */; };
+		5ED72F9B2BA326370031D882 /* ScrollableSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED72F9A2BA326370031D882 /* ScrollableSegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107CBD158B9F18ED2E48FA21 /* Pods_ScrollableSegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableSegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325E96347CCFDF2EC18E8928 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BBFF0D069CCA743CFC4D3C4 /* Pods-ScrollableSegmentControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControlTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControlTests/Pods-ScrollableSegmentControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		450A1C67DF244A02CE86F135 /* Pods-ScrollableSegmentControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControlTests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControlTests/Pods-ScrollableSegmentControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48B490EF010559FF58E2C3FD /* Pods-ScrollableSegmentControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControl.release.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControl/Pods-ScrollableSegmentControl.release.xcconfig"; sourceTree = "<group>"; };
 		5ED72F5F2BA3258B0031D882 /* ScrollableSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED72F622BA3258B0031D882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED72F642BA3258B0031D882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		5ED72F7F2BA3258D0031D882 /* ScrollableSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED72F832BA3258D0031D882 /* ScrollableSegmentControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentControlUITests.swift; sourceTree = "<group>"; };
 		5ED72F852BA3258D0031D882 /* ScrollableSegmentControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ED72F922BA325E00031D882 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		5ED72F952BA325FE0031D882 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5ED72F982BA3262A0031D882 /* ScrollableSegmentControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentControlView.swift; sourceTree = "<group>"; };
+		5ED72F9A2BA326370031D882 /* ScrollableSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentControl.swift; sourceTree = "<group>"; };
+		6FCDD7440DB9B62FA01737B4 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		942E9C55464B62F0FEA5523A /* Pods_ScrollableSegmentControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableSegmentControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CBD4EA2C57441C7FB20FC0 /* Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E165CB8DCD60776C18B01049 /* Pods-ScrollableSegmentControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableSegmentControl.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableSegmentControl/Pods-ScrollableSegmentControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560DE0B37CE8F4DE76CC1509 /* Pods_ScrollableSegmentControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A821823CE2A4E691417946A /* Pods_ScrollableSegmentControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509518C14AE2BF970D81E9F9 /* Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				5ED72F782BA3258D0031D882 /* ScrollableSegmentControlTests */,
 				5ED72F822BA3258D0031D882 /* ScrollableSegmentControlUITests */,
 				5ED72F602BA3258B0031D882 /* Products */,
+				F3F4822B698CA3034533C962 /* Pods */,
+				B00C787101A3C01CBDB558B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +126,11 @@
 			children = (
 				5ED72F622BA3258B0031D882 /* AppDelegate.swift */,
 				5ED72F642BA3258B0031D882 /* SceneDelegate.swift */,
+				5ED72F922BA325E00031D882 /* CustomSegmentControl.swift */,
+				5ED72F972BA3261F0031D882 /* ScrollableSegmentView */,
+				5ED72F942BA325F60031D882 /* Resources */,
 				5ED72F662BA3258B0031D882 /* ViewController.swift */,
 				5ED72F682BA3258B0031D882 /* Main.storyboard */,
-				5ED72F6B2BA3258C0031D882 /* Assets.xcassets */,
 				5ED72F6D2BA3258C0031D882 /* LaunchScreen.storyboard */,
 				5ED72F702BA3258C0031D882 /* Info.plist */,
 			);
@@ -127,6 +154,47 @@
 			path = ScrollableSegmentControlUITests;
 			sourceTree = "<group>";
 		};
+		5ED72F942BA325F60031D882 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ED72F6B2BA3258C0031D882 /* Assets.xcassets */,
+				5ED72F952BA325FE0031D882 /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5ED72F972BA3261F0031D882 /* ScrollableSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				5ED72F982BA3262A0031D882 /* ScrollableSegmentControlView.swift */,
+				5ED72F9A2BA326370031D882 /* ScrollableSegmentControl.swift */,
+			);
+			path = ScrollableSegmentView;
+			sourceTree = "<group>";
+		};
+		B00C787101A3C01CBDB558B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				107CBD158B9F18ED2E48FA21 /* Pods_ScrollableSegmentControl.framework */,
+				A6CBD4EA2C57441C7FB20FC0 /* Pods_ScrollableSegmentControl_ScrollableSegmentControlUITests.framework */,
+				942E9C55464B62F0FEA5523A /* Pods_ScrollableSegmentControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F4822B698CA3034533C962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E165CB8DCD60776C18B01049 /* Pods-ScrollableSegmentControl.debug.xcconfig */,
+				48B490EF010559FF58E2C3FD /* Pods-ScrollableSegmentControl.release.xcconfig */,
+				6FCDD7440DB9B62FA01737B4 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.debug.xcconfig */,
+				325E96347CCFDF2EC18E8928 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.release.xcconfig */,
+				450A1C67DF244A02CE86F135 /* Pods-ScrollableSegmentControlTests.debug.xcconfig */,
+				3BBFF0D069CCA743CFC4D3C4 /* Pods-ScrollableSegmentControlTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ED72F892BA3258D0031D882 /* Build configuration list for PBXNativeTarget "ScrollableSegmentControl" */;
 			buildPhases = (
+				418FA9FBED492E0586A7E757 /* [CP] Check Pods Manifest.lock */,
 				5ED72F5B2BA3258B0031D882 /* Sources */,
 				5ED72F5C2BA3258B0031D882 /* Frameworks */,
 				5ED72F5D2BA3258B0031D882 /* Resources */,
+				344A2AF45F377F717C9A0EF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ED72F8C2BA3258D0031D882 /* Build configuration list for PBXNativeTarget "ScrollableSegmentControlTests" */;
 			buildPhases = (
+				431E7F1778DB5DC2CA4CD648 /* [CP] Check Pods Manifest.lock */,
 				5ED72F712BA3258D0031D882 /* Sources */,
 				5ED72F722BA3258D0031D882 /* Frameworks */,
 				5ED72F732BA3258D0031D882 /* Resources */,
@@ -169,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ED72F8F2BA3258D0031D882 /* Build configuration list for PBXNativeTarget "ScrollableSegmentControlUITests" */;
 			buildPhases = (
+				29F37F8D996F07FC51A33EC1 /* [CP] Check Pods Manifest.lock */,
 				5ED72F7B2BA3258D0031D882 /* Sources */,
 				5ED72F7C2BA3258D0031D882 /* Frameworks */,
 				5ED72F7D2BA3258D0031D882 /* Resources */,
+				737FAEE9072B11CBE47FC673 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +326,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29F37F8D996F07FC51A33EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		344A2AF45F377F717C9A0EF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl/Pods-ScrollableSegmentControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl/Pods-ScrollableSegmentControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl/Pods-ScrollableSegmentControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418FA9FBED492E0586A7E757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableSegmentControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431E7F1778DB5DC2CA4CD648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableSegmentControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737FAEE9072B11CBE47FC673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests/Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5ED72F5B2BA3258B0031D882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED72F932BA325E00031D882 /* CustomSegmentControl.swift in Sources */,
+				5ED72F962BA325FE0031D882 /* Colors.swift in Sources */,
 				5ED72F672BA3258B0031D882 /* ViewController.swift in Sources */,
+				5ED72F992BA3262A0031D882 /* ScrollableSegmentControlView.swift in Sources */,
 				5ED72F632BA3258B0031D882 /* AppDelegate.swift in Sources */,
+				5ED72F9B2BA326370031D882 /* ScrollableSegmentControl.swift in Sources */,
 				5ED72F652BA3258B0031D882 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +617,14 @@
 		};
 		5ED72F8A2BA3258D0031D882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E165CB8DCD60776C18B01049 /* Pods-ScrollableSegmentControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CJTZN4988;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScrollableSegmentControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,12 +647,14 @@
 		};
 		5ED72F8B2BA3258D0031D882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B490EF010559FF58E2C3FD /* Pods-ScrollableSegmentControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CJTZN4988;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScrollableSegmentControl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,6 +677,7 @@
 		};
 		5ED72F8D2BA3258D0031D882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450A1C67DF244A02CE86F135 /* Pods-ScrollableSegmentControlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +698,7 @@
 		};
 		5ED72F8E2BA3258D0031D882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBFF0D069CCA743CFC4D3C4 /* Pods-ScrollableSegmentControlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +719,7 @@
 		};
 		5ED72F902BA3258D0031D882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCDD7440DB9B62FA01737B4 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +738,7 @@
 		};
 		5ED72F912BA3258D0031D882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325E96347CCFDF2EC18E8928 /* Pods-ScrollableSegmentControl-ScrollableSegmentControlUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
