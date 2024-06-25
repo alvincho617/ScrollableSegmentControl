@@ -9,13 +9,13 @@ import UIKit
 import SnapKit
 
 final class ViewController: UIViewController {
-    private let items = ["Chats", "Unread"]
+    private let items = ["Chats", "Unread", "AAAAAA", "BBBBBB","CCCCCCC","DDDDDDD","EEEEEEE","FFFFFF","GGGGG"]
     
     private lazy var scrollableSegmentControlView = ScrollableSegmentControlView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .baseBackground
+        view.backgroundColor = .systemBackground
         
         let customSegment = CustomSegmentControl(items: items)
         
@@ -30,6 +30,10 @@ final class ViewController: UIViewController {
     
     private func setupSegmentControl() {
         view.addSubview(scrollableSegmentControlView)
+        
+        
+          
+          
         scrollableSegmentControlView.snp.makeConstraints { make in
             make.top
                 .equalToSuperview()
@@ -40,6 +44,7 @@ final class ViewController: UIViewController {
         }
     }
     
+  
 }
 
 

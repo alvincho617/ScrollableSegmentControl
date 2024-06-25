@@ -15,7 +15,7 @@ final class ScrollableSegmentControlView: UIView {
     
     public var segmenControl: UISegmentedControl
     private let scrollView = UIScrollView()
-    
+
     // MARK: - Initializers
 
     convenience init(items: [Any]) {
@@ -93,8 +93,19 @@ final class ScrollableSegmentControlView: UIView {
             make.width
                 .greaterThanOrEqualTo(scrollView.snp.width)
         }
+        
+        segmenControl.addTarget(self, action: #selector(segconChanged(segcon:)), for: UIControl.Event.valueChanged)
+
     }
     
+    @objc func segconChanged(segcon: UISegmentedControl) {
+           let selectedSegmentIndex = segcon.selectedSegmentIndex
+           let segmentWidth = segmenControl.frame.width / CGFloat(segmenControl.numberOfSegments)
+           let targetOffsetX = segmentWidth * CGFloat(selectedSegmentIndex) - (scrollView.frame.width - segmentWidth) / 2
+
+           let adjustedOffsetX = max(0, min(targetOffsetX, scrollView.contentSize.width - scrollView.frame.width))
+           scrollView.setContentOffset(CGPoint(x: adjustedOffsetX, y: 0), animated: true)
+       }
 }
 
 extension ScrollableSegmentControlView {
@@ -103,5 +114,4 @@ extension ScrollableSegmentControlView {
         case items(_ items: [Any])
     }
 }
-
 

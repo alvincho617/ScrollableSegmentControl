@@ -22,7 +22,7 @@ final class CustomSegmentControl: ScrollableSegmentControl {
     
     override init(items: [Any]?) {
         super.init(items: items)
-        selectedSegmentIndex = 0
+        selectedSegmentIndex = 4
     }
     
     required init?(coder: NSCoder) {
@@ -68,5 +68,6 @@ final class CustomSegmentControl: ScrollableSegmentControl {
             selectedImageView.layer.removeAnimation(forKey: "SelectionBounds")
         }
     }
+    
     
 }
